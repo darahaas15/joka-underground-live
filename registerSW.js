@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/joka-underground-live/sw.js', { scope: '/joka-underground-live/' })})}
